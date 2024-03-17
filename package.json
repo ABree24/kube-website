@@ -1,0 +1,49 @@
+{
+  "name": "kube",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.3",
+    "@heroicons/react": "^2.0.12",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/next": "^9.0.0",
+    "google-spreadsheet": "^4.1.1",
+    "googleapis": "^112.0.0",
+    "images": "^3.2.4",
+    "next": "^14.1.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.24",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "autoprefixer": "^10.4.11",
+    "eslint": "^8.23.1",
+    "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "postcss": "^8.4.16",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.3"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
