@@ -52,15 +52,15 @@ const Listing: NextPage = () => {
               <Image
                 src="https://img.icons8.com/ios/512/bedroom.png"
                 alt=""
-                height={150}
-                width={150}
+                height={20}
+                width={20}
               />{" "}
               | 3{" "}
               <Image
                 src="https://img.icons8.com/ios-glyphs/512/shower.png"
                 alt=""
-                height={150}
-                width={150}
+                height={20}
+                width={20}
               />{" "}
               | 2500 Sqrft
             </p>

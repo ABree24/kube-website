@@ -9,6 +9,7 @@ import LandSizeDropDown from "./LandSizeDropDown";
 import { places } from "../data/bedrooms.js";
 import { landSizes } from "../data/landSize";
 import { Button } from "./elements";
+import React from "react";
 
 export interface DivProps extends React.ComponentProps<"div"> {
   active?: boolean;

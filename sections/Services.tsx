@@ -106,7 +106,7 @@ const MainDiv = styled.div<Custom>`
   > div {
     position: relative;
     width: 20%;
-    height: 20em;
+    height: 18em;
     border-radius: 6px;
     background-color: #d5dee8;
     background-size: cover;

@@ -51,7 +51,7 @@ export default function Header()
           </Link>
           <Link
             href="/landListings"
-            className="md:hidden text-l leading-6 text-gray-900 font-sans tracking-wider"
+            className=" text-l leading-6 text-gray-900 font-sans tracking-wider"
           >
             Land Listings
           </Link>
@@ -74,11 +74,11 @@ export default function Header()
             About Us
           </Link>
         </Popover.Group>
-        {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
             Contact Us <span aria-hidden="true">&rarr;</span>
           </Link>
-        </div> */}
+        </div> 
       </nav>
       <Dialog
         as="div"
@@ -142,14 +142,14 @@ export default function Header()
                   About Us
                 </Link>
               </div>
-              {/* <div className="py-6">
+               <div className="py-6">
                 <Link
                   href="/contact"
                   className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact Us
                 </Link>
-              </div> */}
+              </div>
             </div>
           </div>
         </Dialog.Panel>
